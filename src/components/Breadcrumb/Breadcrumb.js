@@ -1,11 +1,13 @@
+// Packages
 import React from "react";
+// Styles
 import "./Breadcrumb.scss";
 
 export function Breadcrumb({ categories }) {
   return (
     <ol className={"breadcrumb"}>
       {categories &&
-        categories.map(category => (
+        categories.map((category) => (
           <li className={"breadcrumb-item"} key={category}>
             {category}
           </li>

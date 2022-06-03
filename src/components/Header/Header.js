@@ -1,17 +1,20 @@
+// Packages
 import React from "react";
 
+// Components
 import SearchBox from "../SearchBox";
-
+// Styles
 import "./Header.scss";
+// Assets
+import LogoML from "../../assets/Logo_ML.png";
 
 export function Header() {
   return (
     <header>
-      <img
-        alt="Mercado Libre"
-        className="header-logo"
-        src="https://http2.mlstatic.com/ui/navigation/5.3.7/mercadolibre/logo__small.png"
-      />
+      <a href="/item">
+        <img alt="Mercado Libre" className="header-logo" src={LogoML} />
+      </a>
+
       <SearchBox />
     </header>
   );

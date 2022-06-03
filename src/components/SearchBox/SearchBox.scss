@@ -1,9 +1,11 @@
 .search-box-input {
   width: 40vw;
-  height: 25px;
+  min-height: 30px;
   max-width: 600px;
   border: 0;
   padding-left: 10px;
+  outline: 0;
+  border: 0;
 }
 
 .search-box-form {
@@ -11,9 +13,10 @@
 }
 
 .search-box-btn {
-  width: 30px;
-  background: no-repeat url("../../assets/search.png") 50% 50% #efecec;
+  width: 32px;
+  height: 32px;
+  background: no-repeat url("../../assets/ic_Search.png") 50% 50% #efecec;
   border: 0;
-  background-size: 40px;
+  background-position: center;
   cursor: pointer;
 }

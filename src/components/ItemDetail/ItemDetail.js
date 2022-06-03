@@ -1,7 +1,8 @@
+// Packages
 import React from "react";
-
+// Helpers
 import formatPrice from "../../commons/functions/formatPrice";
-
+// Styles
 import "./ItemDetail.scss";
 
 export function ItemDetail({ item }) {

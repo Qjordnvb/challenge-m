@@ -1,10 +1,19 @@
 .breadcrumb {
   list-style: none;
-  width: 60vw;
+  width: 70vw;
   min-width: 460px;
-  max-width: 780px;
+  max-width: 1000px;
   margin: 20px auto 0 auto;
   padding: 0;
+
+  @media screen and (max-width: 768px) {
+    list-style: none;
+    min-width: 160px;
+    max-width: 360px;
+
+    padding: 0;
+    width: 70%;
+  }
 }
 
 .breadcrumb-item {

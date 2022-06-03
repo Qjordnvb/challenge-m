@@ -14,12 +14,6 @@ Para levantar la aplicación es necesario ejecutar los siguientes comandos:
 
 `npm run server`
 
-## Tests
-
-Se corren ejecutando el comando:
-
-`npm test`
-
 # Overview
 
 Para realizar la aplicación utilicé el stack de tecnologías pedido en la consigna.

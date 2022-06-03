@@ -1,5 +1,7 @@
+// Packages
 import React from "react";
 import { BrowserRouter as Router, Route, useLocation } from "react-router-dom";
+// Pages
 import DetailView from "../../pages/Detail";
 import SearchView from "../../pages/Search";
 
